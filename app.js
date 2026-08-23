@@ -20,7 +20,7 @@ app.use(helmet());
 
 // Enable CORS for all routes
 app.use(cors({
-  origin: 'http://localhost:5173', // Replace with your frontend domain
+  origin: ['http://localhost:5173', "https://qcm-runner.mathieucuvelier.fr"], // Replace with your frontend domain
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
