@@ -5,7 +5,6 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require('cors');
 var helmet = require('helmet');
-var jwt = require('jsonwebtoken');
 var { expressjwt: expressJwt } = require('express-jwt');
 
 var indexRouter = require('./routes/index');
